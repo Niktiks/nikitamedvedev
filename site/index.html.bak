@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Волонтерський центр допомоги безпритульним тваринам "Персик"</title>
+    <link rel='stylesheet' href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="/images/logo-coral-travel.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	 <style>
+   table {
+    width: 10%;
+    background: white;
+    color: white;
+    border-spacing: 1px;
+   }
+   td, th {
+    background: maroon;
+    padding: 5px;
+   }
+  </style>
+</head>
+<body>
+    <header>
+        <a href='#'' class='logo'><img src="images/logo-cat.png" width="100px" height="100px"></a>
+            <ul>
+                <li><a href="#" class='active'>Головна</a></li>
+				 <li><a href="#sec" class='active'>О нас</a></li>
+				 <li><a href="day.html" class='active'>День Безпритульних Тварин</a></li>
+				 <li><a href="review.html" class='active' >Взяти пухнастика</a></li>
+				 <li><a href="maps.html" class='active' >Де ми знаходимося</a></li>
+            </ul>
+    </header>
+    <section>
+        <img src='images/background.jpg' id='background'>
+    </section>
+    <div class='sec' id='sec'>
+        <h2 class="coraltravel">Волонтерський центр допомоги безпритульним тваринам "Персик"</h2>
+        <p>Що роби цент?<br><br>Волонтерський центр допомоги безпритульним тваринам "Персик",
+			силами волонтерів допомагає домашнім улюбленцям які залишилися без даху над головою ,
+			знайти собі новий будинок, у якому їх будуть любити та піклуватимуться.<br><br>В нашому центрі також можно взяти соби тварину БЕЗКОШТОВНО.<br><br>
+			Рішення завести тварину має бути зваженим,
+			це рішення приймається всіма членами вашої сім'ї.
+			Воно повинно бути продиктовано не матеріальними міркуваннями (безкоштовно) і не раптовим почуттям жалю, 
+			а бажанням допомогти, подарувати дім.
+			У притулках є молоді та дорослі тварини, пухнасті й гладкошерсті, дрібні та великі, метиси і навіть породисті.
+			Більшість з них були домашніми і дуже чекають, коли знайдеться людина, яка їх полюбить і почухає за вушком.
+          <h3 style="color:#FF6347">Графік работи</h3>
+		  <table>
+   <tr><td>Пн</td><td>9:00-19:00</td></tr>
+   <tr><td>Вт</td><td>12:00-19:00</td></tr>
+    <tr><td>Ср</td><td>11:00-19:00</td></tr>
+	<tr><td>Чт</td><td>9:00-19:00</td></tr>
+	<tr><td>Пт</td><td>9:00-19:00</td></tr>
+	<tr><td>Сб</td><td>8:00-19:00</td></tr>
+	<tr><td>Нд</td><td>9:00-19:00</td></tr>
+  </table>
+		   <br><br></p>
+            <br><br>
+            <a href="review.html"><button type="button" name="run_script">Взяти пухнастика</button></a>
+    </div>
+    
+   
+            
+          
+            <p>Микита Медведєв ©.</p>
+           
+</body>
+</html>

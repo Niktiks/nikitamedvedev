@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Волонтерський центр допомоги безпритульним тваринам "Персик"</title>
+    <link rel='stylesheet' href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="/images/logo-coral-travel.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style>
+   .scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+   figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+figcaption {
+  width: 300px;
+  padding-bottom: 1px;
+  font-size: 19px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(202, 224, 248);
+}
+.pic {
+    filter: blur(5px); /* Размытие */
+    transition: 1s; /* Время перехода */
+   }
+   .pic:hover {
+    filter: blur(0); /* Отменяем размытие */
+   }
+
+  </style>
+
+</head>
+<body>
+    <header>
+        <a href='#'' class='logo'><img src="images/logo-cat.png" width="100px" height="100px"></a>
+            <ul>
+                <li><a href="#" class='active'>Головна</a></li>
+				 <li><a href="day.html" class='active'>День Безпритульних Тварин</a></li>
+				 <li><a href="review.html" class='active' >Взяти пухнастика</a></li>
+				 <li><a href="maps.html" class='active' >Де ми знаходимося</a></li>
+
+            </ul>
+    </header>
+    <section>
+        <img src='images/background.jpg' id='background'>
+    </section>
+  <p>
+   
+    <div class="scale"><img src="images/cat1.jpeg" alt="" class="pic" width="300" height="300"></div>
+    <div class="scale"><img src="images/dog1.jpeg" alt="" class="pic" width="300" height="300"></div>
+    <div class="scale"><img src="images/cat2.jpeg" alt="" class="pic" width="300" height="300"></div>
+    <div class="scale"><img src="images/dog2.jpeg" alt="" class="pic" width="300" height="300"></div>
+	<div class="scale"><img src="images/cat3.jpeg" alt="" class="pic" width="300" height="300"></div>
+	<div class="scale"><img src="images/dog3.jpeg" alt="" class="pic" width="300" height="300"></div>
+	<div class="scale"><img src="images/cat4.jpeg" alt="" class="pic" width="300" height="300"></div>
+	<div class="scale"><img src="images/dog4.jpeg" alt="" class="pic" width="300" height="300"></div>
+	        <figure>
+			<figcaption>Зоря 6 месецев </figcaption>
+          <div class="scale"><img src="images/cat1.jpeg" alt="" class="scale" width="300" height="300"></div>
+
+        </figure>
+		<figure>
+		  <figcaption>Макс 1 рік</figcaption>
+          <div class="scale"><img src="images/dog1.jpeg" alt="" class="scale" width="300" height="300"></div>
+   
+        </figure>
+		<figure>
+		  <figcaption>Ліза 2 роки 3 місяця </figcaption>
+          <div class="scale"><img src="images/cat2.jpeg" alt="" class="scale" width="300" height="300"></div>
+        
+        </figure>
+		<figure>
+		 <figcaption>Тузя 2 роки</figcaption>
+          <div class="scale"><img src="images/dog2.jpeg" alt="" class="scale" width="300" height="300"></div>
+         
+        </figure>
+		<figure>
+		     <figcaption>Зірка 4 місяця </figcaption>
+          <div class="scale"><img src="images/cat3.jpeg" alt="" class="scale" width="300" height="300"></div>
+     
+        </figure>
+		<figure>
+		      <figcaption>Міла 6 місяців </figcaption>
+          <div class="scale"><img src="images/dog3.jpeg" alt="" class="scale" width="300" height="300"></div>
+    
+        </figure>
+		<figure>
+		      <figcaption>Муся 2 роки</figcaption>
+          <div class="scale"><img src="images/cat4.jpeg" alt="" class="scale" width="300" height="300"></div>
+    
+        </figure>
+		<figure>
+		          <figcaption>Ума і Майя 4 місяця</figcaption>
+          <div class="scale"><img src="images/dog4.jpeg" alt="" class="scale" width="300" height="300"></div>
+
+        </figure>
+	
+  </p>
+            <a href="review.html"><button type="button" name="run_script">Взяти пухнастика</button></a>
+    </div>
+    
+   
+            
+          
+            <p>Микита Медведєв ©.</p>
+           
+</body>
+</html>
